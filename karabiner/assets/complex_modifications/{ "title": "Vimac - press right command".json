@@ -1,0 +1,30 @@
+{ "title": "Vimac - press right command",
+  "rules": [
+     { "description": "Vimac - press right command",
+       "manipulators": [
+        {"from": { "key_code": "right_command" },
+        "parameters": {"basic.to_if_alone_timeout_milliseconds": 300,
+        "basic.to_if_held_down_threshold_milliseconds": 500},
+        "to_if_alone": [
+        {
+
+"key_code": "q",
+                        "modifiers": [
+                            "left_command","left_option","left_control"
+                        ]
+
+
+
+
+}],
+          "to_if_held_down":[ 
+                 {
+"key_code": "right_command"
+}],
+          "type": "basic"
+
+                }
+            ]
+        }
+    ]
+}

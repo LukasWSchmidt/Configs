@@ -1,0 +1,114 @@
+{
+  "Mac": [
+    {
+      "app_name": "a1e2ce30defe4a9187ebc14fc9d2bd8b",
+      "asset_id": "a1e2ce30defe4a9187ebc14fc9d2bd8b",
+      "build_version": "KSP.1.12.5.macOS.en-us",
+      "catalog_item_id": "84686da593b24598803ffbe7f9b1bb5e",
+      "label_name": "Live-Mac",
+      "metadata": {
+        "installationPoolId": "afde0bacb3264a98abd947e25dd04266"
+      },
+      "namespace": "ca0530b485754032be50cb6f27be0c2c"
+    }
+  ],
+  "Windows": [
+    {
+      "app_name": "562d4a2c1b3147b089a7c453e3ddbcbe",
+      "asset_id": "562d4a2c1b3147b089a7c453e3ddbcbe",
+      "build_version": "0.0.0.4",
+      "catalog_item_id": "45f8c6bb48f443cda04fae360c9d1f05",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "7dcfb9cd9d134728b2646466c34c7b3b",
+      "asset_id": "7dcfb9cd9d134728b2646466c34c7b3b",
+      "build_version": "0.0.0.2",
+      "catalog_item_id": "8639c764126147a49fba4e79d4b12e3c",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "c8dae1ab0570475a8b38a9041e614840",
+      "asset_id": "c8dae1ab0570475a8b38a9041e614840",
+      "build_version": "0.0.0.3",
+      "catalog_item_id": "99319f67f7a146a583ab433db3206fe7",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "4fa3d8d9b2cb4714a19a38d1a598be8f",
+      "asset_id": "4fa3d8d9b2cb4714a19a38d1a598be8f",
+      "build_version": "0.0.0.2",
+      "catalog_item_id": "9d6e337d893346fa897ba823042718fd",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "b290229eb58045cbab9501640f3278f3",
+      "asset_id": "b290229eb58045cbab9501640f3278f3",
+      "build_version": "0.0.0.2",
+      "catalog_item_id": "a92cc9f6e89f40c28950016d8c8202f3",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "5daeb974a22a435988892319b3a4f476",
+      "asset_id": "5daeb974a22a435988892319b3a4f476",
+      "build_version": "0.0.0.15",
+      "catalog_item_id": "dabb52e328834da7bbe99691e374cb84",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "ee9a44b4530942499ef1c8c390731fce",
+      "asset_id": "ee9a44b4530942499ef1c8c390731fce",
+      "build_version": "0.0.0.3",
+      "catalog_item_id": "e03e450ae07b41049e90ca620a8e054e",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a5f949820387412884103be2303d3f12"
+      },
+      "namespace": "3428aaab2c674c98b3acb789dcfaa548"
+    },
+    {
+      "app_name": "Sugar",
+      "asset_id": "Sugar",
+      "build_version": "BC2_Update42+419576",
+      "catalog_item_id": "530145df28a24424923f5828cc9031a1",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "9773aa1aa54f4f7b80e44bef04986cea"
+    },
+    {
+      "app_name": "a1e2ce30defe4a9187ebc14fc9d2bd8b",
+      "asset_id": "a1e2ce30defe4a9187ebc14fc9d2bd8b",
+      "build_version": "KSP.1.12.5.en-us",
+      "catalog_item_id": "84686da593b24598803ffbe7f9b1bb5e",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "afde0bacb3264a98abd947e25dd04266"
+      },
+      "namespace": "ca0530b485754032be50cb6f27be0c2c"
+    }
+  ]
+}

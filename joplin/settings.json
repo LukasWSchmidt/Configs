@@ -1,0 +1,9 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_US",
+	"api.token": "5020c4b4fc970f34b98e0fb9ccf4c08d367f30007e8e80baaf3aa2451cb2b4b7206ca9fffb528b2d88862bf385387adda2a837287821b5ae6812f2d77f9311db",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"sync.target": 2,
+	"sync.2.path": "/Users/lukasschmidt/Library/Mobile"
+}

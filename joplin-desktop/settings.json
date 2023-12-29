@@ -1,0 +1,41 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_GB",
+	"api.token": "be5cda93412bb26d640b3f66642c0ce2cf38378ff4080e2b577bdc0cdbdec3d63d4619b1af3f04f1025c1945d24101faa5b24af7ca844816db9246a87c825209",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.languages": [
+		"en-US"
+	],
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"editor.codeView": false,
+	"richTextBannerDismissed": true,
+	"sync.target": 2,
+	"sync.2.path": "/Users/lukasschmidt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Lukas Vault",
+	"theme": 2,
+	"themeAutoDetect": true,
+	"editor.keyboardMode": ""
+}

@@ -1,0 +1,21 @@
+{
+  "appid": 270880,
+  "beta_name": "",
+  "cloud_save": true,
+  "disable_online_networking": false,
+  "dlcs": {},
+  "enable_lan": false,
+  "enable_overlay": true,
+  "installed_depots": {},
+  "language": "english",
+  "languages": [
+    "english"
+  ],
+  "log_level": "off",
+  "savepath": "appdata",
+  "signaling_servers": [],
+  "steamid": 76561198664122142,
+  "unlock_dlcs": true,
+  "use_vr": false,
+  "username": "DefaultName"
+}
