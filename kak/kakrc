@@ -1,6 +1,14 @@
 source "%val{config}/plugins/plug.kak/rc/plug.kak"
 plug "andreyorst/plug.kak" noload
 
+# themes
+plug "secondary-smiles/kakoune-themes" theme config %{
+  colorscheme ef-maris-dark
+}
+
+# Change clippy to cat!
+set-option global ui_options terminal_assistant=cat
+
 ## highlighting
 # display line numbers
 add-highlighter global/ number-lines -hlcursor -relative -separator "  " -cursor-separator " |"
@@ -46,29 +54,22 @@ plug "alexherbo2/auto-pairs.kak" config %{
   enable-auto-pairs
 }
 
-# themes
-plug "secondary-smiles/kakoune-themes" theme config %{
-  colorscheme ayu-mirage
+plug "raiguard/kak-harpoon" config %{
+  map global user 1 ":harpoon-nav 1<ret>" -docstring "Harpoon file 1"
+  map global user 2 ":harpoon-nav 2<ret>" -docstring "Harpoon file 2"
+  map global user 3 ":harpoon-nav 3<ret>" -docstring "Harpoon file 3"
+  map global user 4 ":harpoon-nav 4<ret>" -docstring "Harpoon file 4"
+  map global user 5 ":harpoon-nav 5<ret>" -docstring "Harpoon file 5"
+  map global user 6 ":harpoon-nav 6<ret>" -docstring "Harpoon file 6"
+  map global user 7 ":harpoon-nav 7<ret>" -docstring "Harpoon file 7"
+  map global user 8 ":harpoon-nav 8<ret>" -docstring "Harpoon file 8"
+  map global user 9 ":harpoon-nav 9<ret>" -docstring "Harpoon file 9"
+
+  map global user a ":harpoon-add<ret>" -docstring "add harpoon"
+  map global user h ":harpoon-show-list<ret>" -docstring "show harpoons"
 }
 
-# fzf
-plug "andreyorst/fzf.kak" config %{
-  require-module fzf
-  require-module fzf-grep
-  require-module fzf-file
-} defer fzf %{
-  set-option global fzf_highlight_command "lat -r {}"
-} defer fzf-file %{
-  set-option global fzf_file_command "fd . --no-ignore-vcs"
-} defer fzf-grep %{
-  set-option global fzf_grep_command "fd"
-}
-
-map -docstring "open fzf" global user f ": fzf-mode<ret>"
-
-# set-option global fzf_terminal_command '$TERMINAL kak -c %val{session} -e "%arg{@}"'
-
-# map global goto "b" '<esc>:prompt -buffer-completion buffer: %{ buffer %val{text} }<ret>' -docstring "buffer"
+map global goto "b" '<esc>:prompt -buffer-completion buffer: %{ buffer %val{text} }<ret>' -docstring "buffer"
 
 plug 'delapouite/kakoune-buffers' %{
   map global normal ^ q
@@ -83,10 +84,6 @@ plug 'delapouite/kakoune-buffers' %{
 
 plug "evanrelf/byline.kak" config %{
   require-module "byline"
-}
-
-plug "gustavo-hms/luar" %{
-  require-module luar
 }
 
 plug "kak-lsp/kak-lsp" do %{
@@ -138,4 +135,16 @@ hook global InsertCompletionShow .* %{
         }
     }
 }
-set-option global ui_options terminal_assistant=cat
+
+plug "gustavo-hms/luar" %{
+    plug "gustavo-hms/peneira" %{
+        require-module peneira
+    }
+}
+
+plug "https://codeberg.org/mbauhardt/peneira-filters" config %{
+    map global normal <c-p> ': peneira-filters-mode<ret>'
+}
+set-option global luar_interpreter luajit
+
+ 

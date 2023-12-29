@@ -1,6 +1,8 @@
 try %{ 
 
-  require-module luar
+    plug "gustavo-hms/peneira" %{
+        require-module peneira
+    }
  } catch %{
     echo -debug "Error while evaluating 'luar' configuration: %val{error}"
 
