@@ -1,6 +1,8 @@
 try %{ 
 
-  map global normal <c-p> ': fzf-mode<ret>'
+  require-module fzf
+  require-module fzf-grep
+  require-module fzf-file
  } catch %{
     echo -debug "Error while evaluating 'fzf.kak' configuration: %val{error}"
 

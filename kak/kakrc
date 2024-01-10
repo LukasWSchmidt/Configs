@@ -82,6 +82,21 @@ plug 'delapouite/kakoune-buffers' %{
   map global normal B ': enter-user-mode -lock buffers<ret>' -docstring 'buffers (lock)'
 }
 
+# fzf
+plug "andreyorst/fzf.kak" config %{
+  require-module fzf
+  require-module fzf-grep
+  require-module fzf-file
+} defer fzf %{
+  set-option global fzf_highlight_command "lat -r {}"
+} defer fzf-file %{
+  set-option global fzf_file_command "fd . --no-ignore-vcs"
+} defer fzf-grep %{
+  set-option global fzf_grep_command "fd"
+}
+
+map -docstring "open fzf" global user f ": fzf-mode<ret>"
+
 plug "evanrelf/byline.kak" config %{
   require-module "byline"
 }
